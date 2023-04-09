@@ -4,7 +4,7 @@ import Contact from './Contact';
 import Portofolio from './Portfolio';
 
 const Home = () => (
-  <div>
+  <header>
     <h1>I'm Irirwanirira Joseph</h1>
     <div>
       <p>
@@ -31,10 +31,11 @@ const Home = () => (
 
     <div>
       <About />
+      <h3>Check out some of my work</h3>
       <Portofolio />
       <Contact />
     </div>
-  </div>
+  </header>
 );
 
 export default Home;

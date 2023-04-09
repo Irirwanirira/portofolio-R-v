@@ -6,7 +6,7 @@ const initialState = Project;
 const ProjectSLice = createSlice({
   name: 'Projects',
   initialState,
-  
+
   reducers: {
     getProject: (state) => {
       state;
