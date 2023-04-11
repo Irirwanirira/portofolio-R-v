@@ -1,0 +1,11 @@
+.display-flex {     
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.picture {
+    width: 40%;
+    height: 150%;
+    margin-left: 5rem;
+}

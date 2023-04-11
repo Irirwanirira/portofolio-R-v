@@ -1,0 +1,42 @@
+.display-home {
+    box-sizing: border-box;
+    box-shadow: 2px solid ;
+    border-radius: 20px;
+    position: relative;
+    /* left: 18%; */
+    /* width: 50%; */
+    text-align: center;
+    background-color: rgba(31,41,55,.4);
+    text-align: center;
+    padding: 1.5rem;
+    row-gap: 1.5rem;
+    align-items: center;
+    backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+
+.buttons {
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons a {
+    text-decoration: none;
+    width: 7rem;
+    padding: .5rem;
+    margin: .8em;
+    border: 2px solid #fff;
+    color: black;
+    font-size: 20px;
+    border-radius: 20px;
+}
+svg {
+    width: 25px;
+}
+
+.resume {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}

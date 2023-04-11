@@ -1,0 +1,23 @@
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsla(0,0%,9%,.5);
+    margin: 0;
+    position:static;
+    width: 100%;
+}
+
+.nav-list {
+    margin: 1.5rem;
+    list-style: none;
+
+}
+
+.Links-to {
+    text-decoration: none;
+}
+
+.Links-to:hover {
+    color: rgb(238, 134, 8);
+}

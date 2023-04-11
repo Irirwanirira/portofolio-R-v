@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import './NavBar.css';
 
 const NavBar = () => {
   const links = [
@@ -28,9 +29,9 @@ const NavBar = () => {
 
   return (
     <nav>
-      <ul>
+      <ul className="nav-container">
         {links.map((link) => (
-          <li key={link.id}>
+          <li className="nav-list" key={link.id}>
             <NavLink
               to={link.path}
               className="Links-to"

@@ -36,9 +36,11 @@ const Project = () => {
       {project.map((proj) => (
         <div key={proj.id}>
           <a href={proj.seeProject}>
+            
             <img
               src={proj.src}
               alt={proj.title}
+              {...proj.title}
             />
           </a>
         </div>

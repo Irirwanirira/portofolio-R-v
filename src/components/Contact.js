@@ -1,7 +1,8 @@
 import React from 'react';
+import { SocialIcon } from 'react-social-icons';
 
 const Contact = () => (
-  <div>
+  <div id="contact">
     <div>
       <h3>
         Get in Touch
@@ -14,9 +15,9 @@ const Contact = () => (
         </p>
         <div>
           <ul>
-            <li> Linked in </li>
-            <li> Linked in </li>
-            <li> Linked in </li>
+            <SocialIcon url="https://twitter.com/jaketrent" />
+            <SocialIcon url="https://LinkedIn.com/jaketrent" />
+            <SocialIcon url="https://github.com/jaketrent" />
           </ul>
         </div>
       </div>
