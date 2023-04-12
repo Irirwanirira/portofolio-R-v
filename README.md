@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+## This is a react portofolio which is under costruction, no matter how long it will take, but at he end we shall be Jazzing Bongo.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
